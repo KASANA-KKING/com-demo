@@ -7,33 +7,33 @@ sections:
 - type: heading
   label: Content
 - type: jekyll-posts
-  label: Posts
+  label: Introdiction
   create: all
   templates:
   - post
 - type: jekyll-pages
-  label: Pages
+  label: Signal & System
   create: all
   templates:
   - landing-page
   - page
 - type: directory
   path: _people
-  label: People
+  label: Convolution & Correlation
   create: all
   match: "*"
   templates:
   - person
 - type: directory
   path: _projects
-  label: Projects
+  label: Interactive Demo
   create: all
   match: "*"
   templates:
   - project
 - type: document
   path: _data/information.yml
-  label: Contact Information
+  label: Videos
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
